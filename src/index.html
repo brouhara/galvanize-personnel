@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Galvanize Personal</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-4">
+
+                <div class="card">
+
+                    <h2 class="card-title">Galvanize Personnel</h2>
+
+                    <div class="card-block">
+
+                        <form role="form">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group has-feedback" id="FirstName">
+                                        <label for="labelFirstName">Email address</label>
+                                        <input type="text" class="form-control" id="inputFirstName" aria-describedby="First Name" placeholder="Enter First Name" value="Adam">
+                                        <span class="glyphicon form-control-feedback"></span>
+                                        <small id="textFirstName" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div class="form-group has-feedback" id="LastName">
+                                        <label for="labelLastName">Email address</label>
+                                        <input type="text" class="form-control" id="inputLastName" aria-describedby="Last Name" placeholder="Enter Last Name" value="Brouhard">
+                                        <span class="glyphicon form-control-feedback"></span>
+                                        <small id="textLastName" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group" id="roles">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <label for='select-roles'>Role</label>
+                                        <select class="form-control selectpicker show-tick" id="select-role"> 
+                                            <optgroup label="roles">
+                                                <option selected>- Select an Option Here -</option>
+                                            </optgroup>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <img class="img-responsive img-rounded m-x-auto d-block" id="roles" src="http://placehold.it/200x200">
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="card-block">
+                                        <p id="save-status"></p>
+                                        <a href="#" class="btn btn-block" role="button" aria-pressed="true">
+                                            <button class="btn btn-primary btn-block">Save</button>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+                    <!-- end card block -->
+
+                </div>
+                <!-- end card -->
+
+            </div>
+            <!-- end col -->
+
+        </div>
+        <!-- end row -->
+
+    </div>
+    <!-- end container -->
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- Javascript -->
+    <script src="../assets/scripts/form.js"></script>
+    <script src="../assets/scripts/app.js"></script>
+    <script src="../assets/scripts/save.js"></script>
+
+</body>
+
+</html>
